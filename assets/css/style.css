@@ -1,0 +1,152 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family: Lato, serif;
+}
+
+/* Latar Nav - Hero START */
+.nav-hero-latar{
+    width: 100%;
+    height: 100vh;
+    /* height: 100%; */
+    background-color: #202020;
+}
+
+    /* COntainer */
+        .nav-hero-latar-container{
+            padding: 20px;
+        }
+    /* COntainer */
+/* Latar Nav - Hero END */
+
+
+/* Navbar START */
+    nav{
+        width: 100%;
+    }
+
+    nav .container{
+        padding: 10px;
+    }
+
+    nav .container ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    nav .container ul li{
+        list-style-type: none;
+        align-content: top;
+    }
+
+
+    nav .container ul li a{
+        font-size: 16px;
+
+        color: white;
+        text-decoration: none;
+
+        padding: 5px;
+    }nav .container ul li a:hover{
+        color: gray;
+    }
+
+        /* Judul */
+            nav .container ul li .judul{
+                color: gold;
+                font-weight: 700;
+            }
+        /* Judul */
+
+
+        /* Menu */
+            nav .container ul li a{
+
+            }
+        /* Menu */
+
+        /* Social */
+            nav .container ul li .fa-github{
+                color: white;
+            }
+        /* Social */
+/* Navbar END */
+
+
+
+
+/* Hero START */
+    .hero{
+        width: 100%;
+    }
+
+    .hero .container{
+        align-content: center;
+        padding: 10px;
+    }
+
+    .hero .container ul{
+        display: flex;
+        justify-content: center;
+
+    }
+
+        /* Text */
+            .hero .container ul .text{
+                width: 100%;
+                color: white;
+
+                display: flex;
+                justify-content: space-around;
+
+                flex-wrap: wrap-reverse;
+            }
+            
+            .hero .container ul .text .container .border-left{
+                margin: 10px;
+                border-left: 2px solid white;
+            }
+
+
+                /* Button */
+                    .hero .container ul .text .container .button{
+                        padding: 10px;
+                    }
+
+                    .hero .container ul .text .container .button a{
+                        color: white;
+                        text-decoration: none;
+
+                        padding: 8px;
+                        border: 1px solid gold;
+                        border-radius: 24px;
+                    }
+                /* Button */
+        /* Text */
+
+
+        /* Image */
+            .hero .container ul .image{
+                margin: 10px;
+            }
+
+            .hero .container ul .image .container{
+                padding: 10px;
+            }
+
+            .hero .container ul .image .container img{
+                min-width: 50%;
+                max-width: 100%;
+
+                min-height: 100px;
+                max-height: 300px;
+
+                object-fit: cover;
+            }
+        /* Image */
+
+/* Hero END */
