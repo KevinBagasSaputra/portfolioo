@@ -275,7 +275,7 @@ body{
                         /* Button */
                             .hero-child .container ul .card-1 .button {
                                 color: white;
-                                background-color: red;
+                                background-color: black;
 
                                 
                                 border-top-right-radius: 10px;
@@ -284,6 +284,15 @@ body{
                                 float: right;
 
                                 margin-right: 20px;
+
+                                transition: all ease-in 420ms;
+                            }.hero-child .container ul .card-1 .button:hover{
+                                background-color: gray;
+                                transition: all ease-out 50ms;
+                            }
+
+                            .hero-child .container ul .card-1 .button:active{
+                                background-color: red;
                             }
                         /* Button */
 
@@ -351,7 +360,7 @@ body{
                             /* Button */
                             .hero-child .container ul .card-2 .button {
                                 color: white;
-                                background-color: red;
+                                background-color: black;
 
 
                                 border-top-right-radius: 10px;
@@ -361,7 +370,17 @@ body{
 
                                 margin-right: 20px;
 
+                                transition: all ease-in 420ms;
                             }
+                            .hero-child .container ul .card-2 .button:hover{
+                                background-color: gray;
+                                transition: all ease-out 50ms;
+                            }
+
+                            .hero-child .container ul .card-2 .button:active{
+                                background-color: red;
+                            }
+
                         /* Button */
 
 
@@ -372,3 +391,141 @@ body{
 
 
 /* Hero Child END */
+
+
+
+
+/* About START */
+.about{
+    width: 100%;
+}
+
+.about .container{
+    padding: 10px;
+}
+
+.about .container .judul-about{
+    text-align: center;
+    margin: 20px;
+}
+
+.about .container ul{
+    display: flex;
+    justify-content: center;
+}
+
+    /* Card 1 */
+        .about .container ul .card-1{
+            width: 100%;
+            margin: 10px;
+
+            background-color: white;
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .about .container ul .card-1 a{
+            margin: 10px;
+        }
+
+        .about .container ul .card-1 a img{
+            min-width: 50%;
+            max-width: 100%;
+
+            min-height: 250px;
+            max-height: 300px;
+            object-fit: cover;            
+        }
+
+
+            /* card text */
+                .about .container ul .card-1 .card-1-text{
+                    padding: 10px;
+                    /* background-color: white; */
+                }
+
+                .about .container ul .card-1 .card-1-text .container{
+                    min-width: 100px;
+                    max-width: 500px;
+
+                }
+
+                .about .container ul .card-1 .card-1-text h2{
+                    font-size: 14.5px;
+                    margin: 10px;
+                }
+
+                .about .container ul .card-1 .card-1-text p{
+                    font-size: 13.5px;
+                }
+
+                    /* Social START */
+                        .about .container ul .card-1 .card-1-text .social{
+                            margin-top: 60px;
+                        }
+
+                        .about .container ul .card-1 .card-1-text .social .fa-github, 
+                        .about .container ul .card-1 .card-1-text .social .fa-instagram{
+                            color: black;
+                            font-size: 36px;
+
+                            text-decoration: none;
+
+                            margin-top: 10px;
+                        }
+
+                        .about .container ul .card-1 .card-1-text .social .fa-github:hover,
+                        .about .container ul .card-1 .card-1-text .social .fa-instagram:hover{
+                            color: red;
+                        }
+                    /* Social END */
+            /* card text */
+
+    /* Card 1 */
+
+
+/* About END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Arrow Up START */
+.arrow{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.arrow .container{
+    padding: 40px;
+}
+
+.arrow .container ul{
+    display: flex;
+    justify-content: end;
+}
+
+.arrow .container a{
+    color: white;
+    padding: 10px;
+    background-color: black;
+}.arrow .container a:hover{
+    background-color: gray;
+}
+/* Arrow Up END */
