@@ -398,6 +398,7 @@ body{
 /* About START */
 .about{
     width: 100%;
+    /* background-color: white; */
 }
 
 .about .container{
@@ -407,11 +408,15 @@ body{
 .about .container .judul-about{
     text-align: center;
     margin: 20px;
+
 }
 
 .about .container ul{
     display: flex;
     justify-content: center;
+
+    background-color: white;
+
 }
 
     /* Card 1 */
@@ -424,11 +429,14 @@ body{
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+
+            margin-bottom: 50px;
         }
 
         .about .container ul .card-1 a{
             margin: 10px;
         }
+
 
         .about .container ul .card-1 a img{
             min-width: 50%;
@@ -436,14 +444,14 @@ body{
 
             min-height: 250px;
             max-height: 300px;
-            object-fit: cover;            
+            object-fit: cover;
         }
 
 
             /* card text */
                 .about .container ul .card-1 .card-1-text{
                     padding: 10px;
-                    /* background-color: white; */
+                    background-color: white;
                 }
 
                 .about .container ul .card-1 .card-1-text .container{
@@ -484,6 +492,65 @@ body{
             /* card text */
 
     /* Card 1 */
+
+
+
+    /* Card 2 */
+        .about .container ul .card-2{
+            width: 100%;
+            margin-top: 50px;
+
+
+            margin-left: 10px;
+            margin-right: 10px;
+
+            background-color: white;
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap-reverse;
+
+        }
+
+        .about .container ul .card-2 a{
+            margin: 10px;
+        }
+
+        .about .container ul .card-2 a img{
+            min-width: 50%;
+            max-width: 100%;
+
+            min-height: 250px;
+            max-height: 300px;
+            object-fit: cover;        
+
+        }
+
+
+            /* card text */
+                .about .container ul .card-2 .card-2-text{
+                    padding: 10px;
+                    background-color: white;
+                }
+
+                .about .container ul .card-2 .card-2-text .container{
+                    min-width: 100px;
+                    max-width: 500px;
+
+                }
+
+                .about .container ul .card-2 .card-2-text h2{
+                    font-size: 14.5px;
+                    margin: 10px;
+                }
+
+                .about .container ul .card-2 .card-2-text p{
+                    font-size: 13.5px;
+                }
+            /* card text */
+
+    /* Card 2 */
+
 
 
 /* About END */
