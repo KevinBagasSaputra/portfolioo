@@ -199,6 +199,27 @@ body{
 
 
 /* Hero Child START */
+
+    /* Shape Hero Child */
+        .hero-child-shape{
+            width: 80%;
+            position: absolute;
+
+            display: flex;
+            justify-content: center;
+
+            filter: drop-shadow(2px 2px 2px black);
+        }
+
+        .hero-child-shape img{
+            min-width: 50px;
+            max-width: 100px;
+
+
+        }
+    /* Shape Hero Child*/
+
+
 .hero-child{
     width: 100%;
 }
@@ -208,7 +229,8 @@ body{
 }
 
 .hero-child .container  .judul-hero-child{
-    color: black;
+    color: white;
+    text-shadow: 2px 2px 2px black;
     text-align: center;
 
     margin: 20px;
@@ -332,6 +354,7 @@ body{
 
 
             object-fit: cover;
+
         }
 
                     /* Text Card */
@@ -406,6 +429,8 @@ body{
 }
 
 .about .container .judul-about{
+    color: white;
+    text-shadow: 2px 2px 2px black;
     text-align: center;
     margin: 20px;
 
@@ -470,6 +495,47 @@ body{
                 }
 
                     /* Social START */
+
+                        /* Shape1 Card1 */
+                            .shape-card-1{
+                                width: 100%;
+
+                                filter: drop-shadow(2px 2px 2px black);
+
+
+                                display: flex;
+                                justify-content: end;
+
+                            }
+
+                            .shape-card-1 img{
+                                min-width: 50px;
+                                max-width: 90px;
+
+                                position: absolute;
+
+                                margin-top: -70px;
+
+                            }
+                            /* Shape1 Card1 */
+                            
+                            
+                            
+                            /* Shape2 Card2 */
+                            .shape-card-2{
+                                display: flex;
+                                justify-content: center;
+                            }
+                            
+                            .shape-card-2 img{
+                                min-width: 50px;
+                                max-width: 100px;
+    
+                                position: absolute;
+                            }
+                        /* Shape2 Card2 */
+
+
                         .about .container ul .card-1 .card-1-text .social{
                             margin-top: 60px;
                         }
