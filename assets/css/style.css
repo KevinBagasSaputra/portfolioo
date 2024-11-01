@@ -196,6 +196,96 @@ body{
 
 
 
+/* My Skill START */
+.skill{
+    width: 100%;
+    background-color: #202020;
+}
+
+.skill .container{
+    padding: 10px;
+
+}
+
+.skill .container .skill-p{
+    color: gold;
+    font-size: 14.5px;
+    text-align: center;
+
+}
+
+.skill .container .skill-h2{
+    color: white;
+    text-align: center;
+}
+
+
+    .skill .container ul{
+        display: flex;
+        justify-content: center;
+    }
+
+        .skill .container ul .text{
+            min-width: 100px;
+            max-width: 600px;    
+        }
+
+            .skill .container ul .text .skill-text-h3{
+                color: white;
+            }
+
+            .skill .container ul .text .skill-text-p{
+                min-width: 100px;
+                max-width: 500px;
+                color: gray;
+            }
+
+
+
+            .skill .container ul .text .flex{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+
+                /* Text language START */
+                    .skill .container ul .text .language-1{
+                        display: flex;
+                        padding: 10px;
+
+                    }.skill .container ul .text .language-1 p{
+                        color: white;
+                        margin-left: 10px;
+                    }
+                /* Text language END */
+
+
+                /* Repository START */
+                    .skill .container ul .repository{
+                        padding: 10px;
+                        text-align: center;
+                        align-content: center;
+                    }
+
+                    .skill .container ul .repository .repo-1{
+                        display: inline-block;
+                        padding: 10px;
+                    }
+
+                    .skill .container ul .repository .repo-1 h4{
+                        color: white;
+                        margin-left: 10px;
+                    }
+
+                    .skill .container ul .repository .repo-1 p{
+                        color: gray;
+                    }
+                /* Repository END */
+/* My Skill END */
+
+
+
+
 
 
 /* Hero Child START */
@@ -498,7 +588,7 @@ body{
 
                         /* Shape1 Card1 */
                             .shape-card-1{
-                                width: 100%;
+                                width: 10%;
 
                                 filter: drop-shadow(2px 2px 2px black);
 
@@ -510,7 +600,7 @@ body{
 
                             .shape-card-1 img{
                                 min-width: 50px;
-                                max-width: 90px;
+                                max-width: 85px;
 
                                 position: absolute;
 
