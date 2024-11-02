@@ -205,6 +205,11 @@ body{
 .skill .container{
     padding: 10px;
 
+
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/022/666/586/small/hill-illustration-forest-illustration-fog-free-png.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .skill .container .skill-p{
@@ -217,6 +222,8 @@ body{
 .skill .container .skill-h2{
     color: white;
     text-align: center;
+
+    margin-bottom: 20px;
 }
 
 
@@ -256,6 +263,8 @@ body{
                     }.skill .container ul .text .language-1 p{
                         color: white;
                         margin-left: 10px;
+
+                        align-content: center;
                     }
                 /* Text language END */
 
@@ -712,6 +721,88 @@ body{
 /* About END */
 
 
+
+
+/* Gallery START */
+.gallery{
+    width: 100%;
+}
+
+.gallery .container{
+    padding: 10px;
+}
+
+.gallery .container h2{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+.gallery .container ul{
+    display: flex;
+    justify-content: center;
+    background-color: #F1F3F5;
+}
+
+
+    /* Card START */
+
+        .gallery .container .card-1{
+            min-width: 200px;
+            max-width: 400px;
+        }
+
+        .gallery .container .card-1 .container{
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .gallery .container .card-1 .container img{
+            min-width: 50%;
+            max-width: 100%;
+
+            min-height: 100px;
+            max-height: 300px;
+
+            object-fit: cover;
+        }
+
+
+            .gallery .container .card-1 .container .text-card{
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+
+            .gallery .container .card-1 .container  .text-card h2{
+                color: black;
+                text-align: left;
+
+                align-content: center;
+
+                font-weight: 500;
+                text-shadow: unset;
+            }
+
+            .gallery .container .card-1 .container .text-card p{
+                color: #008AFF;
+                font-size: 12.5px;
+            }
+
+
+                .gallery .container .card-1 .container .text-card a{
+                    color: black;
+                    font-size: 14px;
+
+                    text-underline-offset: 3px;
+                }
+
+                .gallery .container .card-1 .container .text-card a:hover{
+                    color: #CCCCCC;
+                }
+
+    /* Card END */
+/* Gallery END */
 
 
 
