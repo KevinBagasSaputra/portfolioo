@@ -730,29 +730,44 @@ body{
 
 .gallery .container{
     padding: 10px;
+
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    background-color: #202020;
 }
 
-.gallery .container h2{
+.gallery .container .judul-gallery{
     color: white;
     text-shadow: 2px 2px 2px black;
     text-align: center;
+
+    margin: 20px;
 }
 
 .gallery .container ul{
     display: flex;
     justify-content: center;
-    background-color: #F1F3F5;
+
+    flex-wrap: wrap;
+    background-color: #202020;
+
 }
 
 
     /* Card START */
 
         .gallery .container .card-1{
-            min-width: 200px;
-            max-width: 400px;
+            min-width: 100px;
+            max-width: 300px;
+
+            border-radius: 20px;
+            box-shadow: 0 0 10px 1px gray;
+            text-align: center;
         }
 
         .gallery .container .card-1 .container{
+            background-color: white;
             padding: 10px;
             margin: 10px;
         }
@@ -762,7 +777,7 @@ body{
             max-width: 100%;
 
             min-height: 100px;
-            max-height: 300px;
+            max-height: 400px;
 
             object-fit: cover;
         }
@@ -771,6 +786,8 @@ body{
             .gallery .container .card-1 .container .text-card{
                 display: flex;
                 justify-content: space-evenly;
+
+                margin: 10px;
             }
 
 
@@ -782,6 +799,8 @@ body{
 
                 font-weight: 500;
                 text-shadow: unset;
+
+                margin-right: 10px;
             }
 
             .gallery .container .card-1 .container .text-card p{
